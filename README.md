@@ -1,10 +1,18 @@
-# swiss_tournament_schema
+# Swiss tournament schema
 A postgres-sql database schema to store and retrieve tournament details 
 
+##Contents:
 The project contains three files. 
 
-*	To create the database connect to psql command line tool. Use \i tournament.sql to create schema
+###tournament.sql
+To create the database schema, connect to psql command line tool and execute
 
-*	tournament.py is used to insert/update records to the table and to get game related data
+```
+> \i tournament.sql
+```
+###tournament.py
+- insert/update records to the table 
+- to fetch back game related data 
 
-*	tournament_tests.py is for testing tournament.py methods
+###tournament_tests.py
+- for testing tournament.py functionality
